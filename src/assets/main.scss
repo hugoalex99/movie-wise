@@ -1,0 +1,11 @@
+@use 'reset' as *;
+@use 'navbar' as *;
+@use 'hero' as *;
+@use 'cards' as *;
+@use 'animations' as *;
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
