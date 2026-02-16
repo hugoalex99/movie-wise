@@ -1,38 +1,37 @@
-# movie-wise
+# 🎬 Movie Wise
 
-This template should help get you started developing with Vue 3 in Vite.
+Movie Wise é uma aplicação em **Vue 3** que permite buscar filmes, visualizar pôsteres e explorar um carrossel interativo.  
+O projeto foi desenvolvido com foco em **design moderno**, **feedback visual elegante** e **experiência fluida** para o usuário.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Funcionalidades
 
-## Recommended Browser Setup
+- 🔎 **Busca de filmes** com debounce (300ms) e feedback visual com spinner.
+- ❌ **Botão de limpar** input (X) com foco automático.
+- 📌 **Top Filmes** exibidos em carrossel horizontal.
+- 🎥 **Hero banner** com imagem genérica de filmes (30% da altura da tela).
+- 🖼️ **Carrossel com 20 filmes**, espaçamento entre cards e margens centralizadas.
+- ✨ **Animações**:
+  - Fade-in sequencial dos cards.
+  - Zoom suave ao passar o mouse.
+  - Destaque no texto ao hover.
+- ⚠️ **Mensagem de não encontrado** + botão **Tentar novamente** quando a busca não retorna resultados.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+---
 
-## Customize configuration
+## 🛠️ Tecnologias utilizadas
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [Vue 3](https://vuejs.org/) (Composition API)
+- [SCSS](https://sass-lang.com/) para estilização
+- [OMDb API](https://www.omdbapi.com/) para dados de filmes
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## 📦 Instalação e uso
 
-### Compile and Hot-Reload for Development
+Clone o repositório:
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+```bash
+git clone https://github.com/seu-usuario/movie-wise.git
+cd movie-wise
